@@ -1,0 +1,47 @@
+body {
+    background: purple;
+    color: #ffffff;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    width: 400px;
+}
+
+.button {
+    display: in-line block;
+    padding: 10px 20px;
+    background-color: white;
+    color: purple;
+    text-decoration:none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+} 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.column {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.project-buttons {
+    text-align:center;
+}
+
+
